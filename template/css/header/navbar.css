@@ -1,0 +1,49 @@
+nav {
+    background-color: #00334E;
+    padding: 10px 75px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav .logo {
+    font-size: 28px;
+    font-weight: bolder;
+    float: left;
+}
+
+nav .white {
+    color: white;
+}
+
+nav .orange {
+    color: #EE6F57
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+nav .no-ml {
+    margin: unset;
+}
+
+nav .button-hotline {
+    background-color: #EE6F57;
+    padding: 6px;
+    border: 1px solid #EE6F57;
+}

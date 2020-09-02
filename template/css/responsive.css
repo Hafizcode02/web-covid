@@ -1,0 +1,38 @@
+@media(max-width:600px) {
+    .header-content {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .flex-content {
+        flex-basis: 100%;
+    }
+
+    .span-white {
+        font-size: 40pt;
+    }
+
+    .span-orange {
+        font-size: 40pt;
+    }
+
+    .flex-image {
+        flex-basis: 0%;
+        width: 0;
+        height: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    main {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .main-flex {
+        flex-direction: column;
+    }
+}
