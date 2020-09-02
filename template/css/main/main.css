@@ -39,6 +39,7 @@ main {
     border-radius: 5px;
     margin-top: 20px;
     background-color: #fff;
+    width: 100%;
 }
 
 .pd-10 {

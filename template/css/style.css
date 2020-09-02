@@ -1,6 +1,8 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css');
+@import url('https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css');
 /* import css */
 @import url('./header/navbar.css');
 @import url('./header/header-content.css');
