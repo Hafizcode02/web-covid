@@ -19,7 +19,7 @@
                 <li><a href="#">Beranda</a></li>
                 <li><a href="#">Data</a></li>
                 <li><a href="#">Pencegahan</a></li>
-                <li><a href="#">Tentang</a></li>
+                <li><a href="https://dicoding.com/users/459104">Author</a></li>
                 <li class="no-ml"><a href="#" class="button-hotline">Covid-19 Hotline : 199</a></li>
             </ul>
         </nav>
@@ -343,14 +343,18 @@
     </main>
 
     <footer>
-
+        <p>Copyright &#169; 2020, Hafiz Caniago</p>
     </footer>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    <script src="./js/import.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
 </body>
 
 </html>
