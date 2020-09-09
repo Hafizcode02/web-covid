@@ -35,4 +35,8 @@
     .main-flex {
         flex-direction: column;
     }
+
+    footer {
+        height : 100%;
+    }
 }
